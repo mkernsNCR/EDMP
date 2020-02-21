@@ -1,0 +1,34 @@
+{
+	"name": "scratch-2",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack",
+		"start": "webpack-dev-server --open"
+	},
+	"keywords": [],
+	"author": "Matthew Kerns",
+	"license": "ISC",
+	"dependencies": {
+		"@material-ui/core": "^4.8.0",
+		"@material-ui/icons": "^4.5.1",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
+		"react-loadable": "^5.5.0",
+		"react-router-dom": "^5.1.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.7.5",
+		"@babel/plugin-transform-modules-commonjs": "^7.7.5",
+		"@babel/preset-env": "^7.7.6",
+		"@babel/preset-react": "^7.7.4",
+		"babel-loader": "^8.0.6",
+		"css-loader": "^3.3.2",
+		"html-webpack-plugin": "^3.2.0",
+		"style-loader": "^1.0.1",
+		"webpack": "^4.41.2",
+		"webpack-cli": "^3.3.10",
+		"webpack-dev-server": "^3.9.0"
+	}
+}
